@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Buttons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<h1>Tech Support</h1>
+    <form>
+        <label for="product">Product</label>
+        <br>
+        <select name="product" id="product">
+            <option value="iPhone">iPhone</option>
+            <option value="imac">iMac</option>
+            <option value="macbook">Macbook</option>
+            <option value="macbook-pro">MacbookPro</option>
+            <option value="ipad">iPad</option>
+        </select>
+        <br>
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" 
+        id="message" 
+        placeholder="Enter your issue"
+        rows="4"
+        cols="40"
+        ></textarea>
+        <br> <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+    
+    <h1>Fovorite Programming Languages</h1>
+<form>
+    <label for="html">
+        <input 
+        type="checkbox" 
+        name="languages" 
+        id="html" 
+        value="html"> 
+        HTML
+    </label>
+    <label for="css">
+        <input 
+        type="checkbox" 
+        name="languages" 
+        id="css" 
+        value="css"> 
+        CSS 
+    </label>
+    <label for="javascript">
+        <input 
+        type="checkbox" 
+        name="languages" 
+        id="javascript" 
+        value="javascript"> 
+        JavaScript 
+    </label>
+</form>
+
+<h2>Product Size</h2>
+<form>
+    <label for="small">
+        <input 
+        type="radio"
+        name="size"
+        id="small"
+        value="small">
+        Small
+    </label>
+    <label for="medium">
+        <input 
+        type="radio"
+        name="medium"
+        id="medium"
+        value="medium">
+        Medium
+    </label>
+    <label for="xl">
+        <input 
+        type="radio"
+        name="xl"
+        id="xl"
+        value="xl">
+        Extra Large
+    </label>
+    <label for="large">
+        <input type="radio" 
+        name="large" 
+        id="large"
+        value="large">
+        Large
+    </label>
+</form>
+</body>
+</html>
