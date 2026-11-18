@@ -1,0 +1,27 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+/*
+    a:link = normal unvisited link
+    a:hover = link when hovered
+    a:active = moment link is clicked
+    a:focus = moment link receives focus
+    a:visited = link user has visited
+*/
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    color: darkgreen;
+}
+a:active{
+    background-color: aqua;
+}
+a:focus{
+    background-color: yellow;
+}
+a:visited{
+    color: blueviolet;
+}
