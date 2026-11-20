@@ -1,0 +1,41 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.box{
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    margin: 100px;
+    
+}
+
+/* 
+    PADDING
+
+    - padding-top = enkel boven
+    - padding-bottom = enkel onder
+    - padding-right = enkel rechts
+    - padding-left = enkel links
+    - padding = alle zijden
+
+    - padding 20px 0 = boven en onder 20px en links en rechts 0
+    - padding 0px 20px = boven en onder 0 en links en rechts 20px
+
+    - padding 10px 20px 5px 15px = boven 10px, rechts 20px, onder 5px en links 15px
+
+    MARGIN
+    
+    - margin-top = enkel boven
+    - margin-bottom = enkel onder
+    - margin-right = enkel rechts
+    - margin-left = enkel links
+    - margin = alle zijden
+
+    - margin 20px 0 = boven en onder 20px en links en rechts 0
+    - margin 0px 20px = boven en onder 0 en links en rechts 20px
+
+    - margin 10px 20px 5px 15px = boven 10px, rechts 20px, onder 5px en links 15px
+
+
+
+*/
